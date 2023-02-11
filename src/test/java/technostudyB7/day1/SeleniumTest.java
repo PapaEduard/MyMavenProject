@@ -1,4 +1,4 @@
-package technostudyB7_day1.day1;
+package technostudyB7.day1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

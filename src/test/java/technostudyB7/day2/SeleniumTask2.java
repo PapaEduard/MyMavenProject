@@ -1,4 +1,4 @@
-package technostudyB7_day1.day2;
+package technostudyB7.day2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -31,6 +31,7 @@ public class SeleniumTask2 {
             System.out.println(" FAILED... Check again total = "+total.getText()+" must equals result = "+result);
             System.out.println("actual result is = "+result);
         }
+        System.out.println(driver.getCurrentUrl());
         driver.quit();
     }
 }
